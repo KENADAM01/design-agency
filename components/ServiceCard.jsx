@@ -1,12 +1,12 @@
 import React from 'react'
 
-const ServiceCard = ({title, desc}) => {
+const ServiceCard = ({title, desc, img}) => {
   return (
     <>
     <div className="flex justify-center h-full w-full">
         <div className="bg-white dark:bg-gray-800 flex flex-col justify-between w-full max-w-sm border border-gray-200 dark:border-gray-700 rounded-2xl shadow-md overflow-hidden transition-shadow hover:shadow-lg">
             <a href="#">
-                <img className="w-full object-cover" src="/docs/images/blog/image-1.jpg" alt="" />
+                <img className="w-full h-48 object-cover" src={img} alt={title} />
             </a>
             <div className="p-6 text-center flex flex-col items-center flex-1">
                 <a href="#">

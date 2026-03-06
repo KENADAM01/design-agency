@@ -6,14 +6,17 @@ const Services = () => {
     {
       title: "UI/UX Design",
       desc: "UI (User Interface) is what you see and touch—the colors, buttons, and layout of an app or website. UX (User Experience) is how it feels—how easy or satisfying it is to use",
+      img: `${import.meta.env.BASE_URL}img/5881573.jpg`,
     },
     {
       title: "Web Development",
       desc: "Web development involves building and maintaining websites/applications via front-end (user-facing, HTML/CSS/JS) and back-end (server-side, databases, APIs) technologies  ",
+      img: `${import.meta.env.BASE_URL}img/4428861.jpg`,
     },
     {
       title: "Branding",
       desc: "Branding is the process of creating a unique name, design, and image for a product, service, or company. It’s what makes a brand recognizable and sets it apart from competitors",
+      img: `${import.meta.env.BASE_URL}img/7497277.jpg`,
     },
   ];
 

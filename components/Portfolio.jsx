@@ -4,15 +4,15 @@ const Portfolio = () => {
     const projects = [
   {
     title: "Ecommerce Website",
-    img: "./img/e.jpg",
+    img: `${import.meta.env.BASE_URL}img/e.jpg`,
   },
   {
     title: "Startup Landing Page",
-    img: "./img/f.jpg",
+    img: `${import.meta.env.BASE_URL}img/f.jpg`,
   },
   {
     title: "Mobile App UI",
-    img: "./img/m.jpg",
+    img: `${import.meta.env.BASE_URL}img/m.jpg`,
   },
 ];
   return (  
